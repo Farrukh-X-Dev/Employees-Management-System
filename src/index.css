@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+#tasklist{
+    scrollbar-width: none;
+    background-color: transparent;
+ }
