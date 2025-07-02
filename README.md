@@ -1,4 +1,9 @@
 # Employees Management System
+## Email and Passwords 
+# For admin : Admin@gmail.com , Password is '123'
+# For employees : employee1@example.com , Password is '123' (There are five employees signed in )
+
+
 ## 📌 Description
 
 Employees Management System is a web application that allows an admin to assign tasks to employees and track their progress. Admins can view which employees have accepted, completed, or failed their tasks. Employees can log in, view assigned tasks, and update their task status accordingly.
