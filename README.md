@@ -1,7 +1,7 @@
 # Employees Management System
 ## Email and Passwords 
-# For admin : Admin@gmail.com , Password is '123'
-# For employees : employee1@example.com , Password is '123' (There are five employees signed in )
+### For admin : Admin@gmail.com , Password is '123'
+### For employees : employee1@example.com , Password is '123' (There are five employees signed in )
 
 
 ## 📌 Description
