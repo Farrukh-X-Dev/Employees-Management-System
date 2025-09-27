@@ -22,7 +22,7 @@ export const TaskBox = ({ data }) => {
 
 
   return (
-    <div className="flex justify-between gap-5 screen mt-10">
+    <div className="flex justify-between gap-5 screen mt-10 overflow-x-auto tasklist " >
       <div className="rounded-xl py-6 px-9 w-[45%] bg-blue-400 p-10">
         <h2 className="text-3xl font-[650]">{newtask}</h2>
         <h3 className="text-xl font-[550]">New Task</h3>

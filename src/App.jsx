@@ -8,8 +8,7 @@ export const App = () => {
   const [user, setUser] = useState(null);
   const [loggedInUserData, setLoggedInUserData] = useState(null)
   const [error, setError] = useState(false);
- 
-    let [FixedData] = useContext(AuthContext);
+  let [FixedData] = useContext(AuthContext);
     
     
 
@@ -49,7 +48,6 @@ export const App = () => {
     
       {!user ? <Login error={error} functionn={validation} /> : ''}
       {user === "Admin" ? <Admin changeUser={setUser}  /> : (user === "employee" ? <Employee changeUser={setUser} EmployessData={loggedInUserData  } /> : null)}
-    
     
     </>
   );

@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
  
-#tasklist{
+.tasklist{
     scrollbar-width: none;
     background-color: transparent;
  }
