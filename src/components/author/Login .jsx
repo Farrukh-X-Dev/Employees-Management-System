@@ -13,12 +13,12 @@ export const Login = ({error , functionn}) => {
 
   return (
     <>
-      <div className="flex font-poppins items-center justify-center bg-gradient-to-r from-gray-700 via-gray-600 to-gray-700 text-gray-700">
+      <div className="flex font-poppins items-center justify-center bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-gray-800">
         <div className="h-screen w-full flex justify-center items-center ">
           <div className="grid gap-8">
             <div
               id="borders"
-              className="bg-gradient-to-r from-gray-700 to-gray-500 rounded-[26px] m-4"
+              className="bg-gradient-to-r from-gray-700 to-gray-600 rounded-[26px] m-4 shadow-2xl"
             >
               <div className="border-[20px] border-transparent rounded-[20px] bg-gray-900 shadow-lg xl:p-10 2xl:p-10 lg:p-10 md:p-10 sm:p-2 m-2">
                 <h1 className="pt-8 pb-6 font-bold text-white text-5xl text-center cursor-default">
@@ -36,7 +36,7 @@ export const Login = ({error , functionn}) => {
                       Email
                     </label>
                     <input
-                      className="border-[3px] focus:border-[4px] p-3 bg-gray-800 text-gray-300 shadow-md placeholder-gray-500  focus:scale-105 ease-in-out duration-300 border-gray-700 rounded-lg w-full outline-none"
+                      className="border-[3px] focus:border-blue-500 p-3 bg-gray-800 text-gray-300 shadow-md placeholder-gray-500   ease-in-out duration-300 border-gray-700 rounded-lg w-full outline-none"
                       type="email"
                       placeholder="Email"
                       required
@@ -56,7 +56,7 @@ export const Login = ({error , functionn}) => {
                     <input
                       type="password"
                       placeholder="Password"
-                      className="border-[3px] focus:border-[4px] p-3 bg-gray-800 text-gray-300 shadow-md placeholder-gray-500  focus:scale-105  ease-in-out duration-300 border-gray-700 rounded-lg w-full outline-none"
+                      className="border-[3px] focus:border-blue-500 p-3 bg-gray-800 text-gray-300 shadow-md placeholder-gray-500   ease-in-out duration-300 border-gray-700 rounded-lg w-full outline-none"
                       onChange={(e) => {
                         setPassword(e.target.value);
                       }}
@@ -65,7 +65,7 @@ export const Login = ({error , functionn}) => {
                     />
                   </div>
                   <button
-                    className="bg-gradient-to-r from-blue-600 to-purple-600 shadow-lg mt-6 p-2 text-white rounded-lg w-full hover:scale-105 hover:from-purple-600 hover:to-blue-600  transition duration-300 ease-in-out"
+                    className="bg-gradient-to-r from-blue-600 to-purple-600 shadow-lg mt-6 p-2 text-white rounded-lg w-full hover:text-gray-300 hover:from-purple-600 hover:to-blue-600 transition duration-300 ease-in-out"
                     type="submit"
                   >
                     LOG IN

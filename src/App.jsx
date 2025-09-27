@@ -25,7 +25,7 @@ export const App = () => {
   },[])
   
   const  validation = (email, password) => {
-     if (email === "Admin@gmail.com" && password === "123") {
+     if (email === "admin@gmail.com" && password === "123") {
        setUser("Admin");
        localStorage.setItem("Current_User", JSON.stringify({ role: "Admin" }));
        setError(false);

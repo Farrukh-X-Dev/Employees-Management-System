@@ -1,14 +1,24 @@
 # Employees Management System
-## Email and Passwords 
-### For admin : Admin@gmail.com , Password is '123'
-### For employees : employee1@example.com , Password is '123' (There are five employees signed in )
+
+
+## 📌 Email and Passwords 
+
+### For Admin Panel :-
+Email : admin@gmail.com 
+Password : 123
+
+### For Employee Dashboard :-
+Email : employee1@gmail.com 
+Password : 123
 
 
 ## 📌 Description
 
 Employees Management System is a web application that allows an admin to assign tasks to employees and track their progress. Admins can view which employees have accepted, completed, or failed their tasks. Employees can log in, view assigned tasks, and update their task status accordingly.
 
+
 ## 🚀 Features
+
 ✅ Admin can assign tasks to employees
 
 ✅ View task statuses (Pending, Accepted, Completed, Failed)
@@ -18,6 +28,12 @@ Employees Management System is a web application that allows an admin to assign 
 ✅ Secure authentication for both admins and employees
 
 ✅ Interactive dashboard with real-time updates
+
+
+## 🛠 Technologies Used
+
+    Frontend: React.js, HTML, CSS, JavaScript, Tailwind CSS, Vite, 
+
 
 ## 💻 Installation & Setup  
 To set up and run the project locally, follow these steps:  
@@ -36,25 +52,7 @@ npm install
 npm run dev
 ```
 
-## 🛠 Technologies Used
-
-    Frontend: HTML, CSS, JavaScript, Tailwind CSS, Vite, React.js
-
-## 🔧 Configuration
-
-No additional configuration or API keys are required.
-👨‍💻 Contribution Guidelines
-
-Contributors are welcome to suggest and submit changes, but modifications will only be merged upon approval by the project owner. Follow these steps to contribute:
-
-    Fork the repository
-    Create a feature branch (git checkout -b feature-name)
-    Commit your changes (git commit -m "Added new feature")
-    Push to the branch (git push origin feature-name)
-    Submit a pull request
-
 ## 📞 Contact
 
 📩 Email: m.farrukhnoman@gmail.com
 
-📱 WhatsApp: 03333738708 (WhatsApp only)

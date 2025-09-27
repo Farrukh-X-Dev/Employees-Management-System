@@ -6,3 +6,21 @@
     scrollbar-width: none;
     background-color: transparent;
  }
+ ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #142937;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #000000;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #111111;
+  }
+  * {
+    scrollbar-width: thin;
+    scrollbar-color:  #1f2937 #141313;
+  }
+  

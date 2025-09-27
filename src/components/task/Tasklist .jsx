@@ -7,9 +7,7 @@ import { AuthContext } from "../context/Authprovider";
 
 export const Tasklist = ({ data }) => {
   const [FullData, setFulldata] = useContext(AuthContext);
-
-
-
+  
   const handleCompletion = (taskId) => {
     setFulldata((prevData) => {
       const updatedEmployees = prevData.employees.map((employee) => {
